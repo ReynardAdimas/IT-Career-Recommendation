@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "text": "Apa ketertarikan utamamu dalam dunia teknologi?",
+    "options": [
+      {
+        "answer": "Membangun tampilan website yang interaktif",
+        "tags": "frontend developer web design ui ux react css html"
+      },
+      {
+        "answer": "Mengelola data dan logika di balik layar (Server)",
+        "tags": "backend engineer api database sql python nodejs server"
+      },
+      {
+        "answer": "Menganalisis data untuk menemukan pola tersembunyi",
+        "tags": "data scientist analyst machine learning statistics python ai"
+      },
+      {
+        "answer": "Menjaga keamanan sistem dari serangan hacker",
+        "tags": "cybersecurity security analyst penetration testing hacking network"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Pilih teknologi yang paling ingin kamu pelajari atau kuasai:",
+    "options": [
+      {
+        "answer": "Python & TensorFlow (Kecerdasan Buatan)",
+        "tags": "machine learning deep learning ai python data scientist"
+      },
+      {
+        "answer": "Flutter / Swift (Aplikasi HP)",
+        "tags": "mobile developer ios android flutter app development"
+      },
+      {
+        "answer": "AWS / Docker (Infrastruktur Cloud)",
+        "tags": "cloud engineer devops aws docker kubernetes infrastructure"
+      },
+      {
+        "answer": "Cisco / Mikrotik (Jaringan Komputer)",
+        "tags": "network engineer cisco routing switching hardware"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "Bagaimana gaya kerjamu?",
+    "options": [
+      {
+        "answer": "Saya suka memimpin tim dan mengatur jadwal",
+        "tags": "project manager product manager scrum master agile leadership"
+      },
+      {
+        "answer": "Saya lebih suka fokus coding sendirian (Technical Expert)",
+        "tags": "software engineer developer programmer technical specialist"
+      },
+      {
+        "answer": "Saya suka memastikan kualitas dan mencari bug",
+        "tags": "qa engineer software tester quality assurance automation"
+      }
+    ]
+  }
+]
