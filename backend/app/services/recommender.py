@@ -44,7 +44,7 @@ class CareerRecommender:
                 recommendations.append({
                     "title": title,
                     "match_score": float(scores[idx]), 
-                    "description": str(self.df_jobs.iloc[idx]['Job Description'])[:200] + "..."
+                    "description": str(self.df_jobs.iloc[idx]['Job Description'])
                 })
                 seen_roles.add(clean_title)
             
