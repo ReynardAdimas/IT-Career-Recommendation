@@ -13,7 +13,6 @@ export default function Result() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Redirect ke home jika user langsung buka link tanpa isi kuis
     if (!state?.tags) {
       navigate('/');
       return;
@@ -21,7 +20,6 @@ export default function Result() {
 
     const fetchRecommendation = async () => {
       try {
-        // Kirim tags ke Backend AI
         const res = await axios.post('http://127.0.0.1:8000/api/recommend', {
           tags: state.tags
         });
@@ -39,14 +37,14 @@ export default function Result() {
   if (loading) return (
     <div className="flex flex-col items-center justify-center space-y-4">
       <div className="text-4xl animate-bounce">🤖</div>
-      <p className="text-slate-400 animate-pulse">AI sedang menganalisis profilmu...</p>
+      <p className="text-slate-400 animate-pulse">Sedang menganalisis profilmu...</p>
     </div>
   );
 
   return (
     <div className="w-full max-w-2xl space-y-8 py-10">
       <div className="text-center space-y-2">
-        <h2 className="text-3xl font-bold tracking-tight text-white">Hasil Analisis AI</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-white">Hasil Analisis</h2>
         <p className="text-slate-400">Berikut adalah karir yang paling cocok dengan pola jawabanmu.</p>
       </div>
       

@@ -1,63 +1,209 @@
 [
   {
     "id": 1,
-    "text": "Apa ketertarikan utamamu dalam dunia teknologi?",
+    "text": "Saat menikmati film atau novel misteri, apa yang paling menarik perhatianmu?",
     "options": [
       {
-        "answer": "Membangun tampilan website yang interaktif",
-        "tags": "frontend developer web design ui ux react css html"
+        "answer": "Visualnya (kostum, lokasi, color grading)",
+        "tags": "frontend developer ui ux designer creative web design"
       },
       {
-        "answer": "Mengelola data dan logika di balik layar (Server)",
-        "tags": "backend engineer api database sql python nodejs server"
+        "answer": "Analisis bukti dan menebak pelaku dengan logika",
+        "tags": "data scientist data analyst logic problem solving machine learning"
       },
       {
-        "answer": "Menganalisis data untuk menemukan pola tersembunyi",
-        "tags": "data scientist analyst machine learning statistics python ai"
+        "answer": "Menemukan kejanggalan cerita (Plot Hole)",
+        "tags": "qa engineer software tester quality assurance bug fixing detail"
       },
       {
-        "answer": "Menjaga keamanan sistem dari serangan hacker",
-        "tags": "cybersecurity security analyst penetration testing hacking network"
+        "answer": "Teknis di balik layar (lighting, effect, kamera)",
+        "tags": "backend engineer system architecture infrastructure technical"
+      },
+      {
+        "answer": "Memikirkan ending alternatif agar penonton lebih puas",
+        "tags": "product manager user experience business analyst empathy"
       }
     ]
   },
   {
     "id": 2,
-    "text": "Pilih teknologi yang paling ingin kamu pelajari atau kuasai:",
+    "text": "Apa hambatan terbesarmu saat mempelajari hal baru?",
     "options": [
       {
-        "answer": "Python & TensorFlow (Kecerdasan Buatan)",
-        "tags": "machine learning deep learning ai python data scientist"
+        "answer": "Metode kaku dan membosankan, butuh visual!",
+        "tags": "frontend ui ux interactive creative learning"
       },
       {
-        "answer": "Flutter / Swift (Aplikasi HP)",
-        "tags": "mobile developer ios android flutter app development"
+        "answer": "Kurang data atau contoh konkret",
+        "tags": "data scientist analyst math statistics facts"
       },
       {
-        "answer": "AWS / Docker (Infrastruktur Cloud)",
-        "tags": "cloud engineer devops aws docker kubernetes infrastructure"
+        "answer": "Overthinking mencari cara terefisien",
+        "tags": "qa engineer optimization efficiency detail oriented"
       },
       {
-        "answer": "Cisco / Mikrotik (Jaringan Komputer)",
-        "tags": "network engineer cisco routing switching hardware"
+        "answer": "Tidak paham konsep dasar (Why before How)",
+        "tags": "backend engineer computer science deep learning roots"
+      },
+      {
+        "answer": "Belajar sendirian, butuh teman diskusi",
+        "tags": "project manager scrum master team lead collaboration"
       }
     ]
   },
   {
     "id": 3,
-    "text": "Bagaimana gaya kerjamu?",
+    "text": "Peran apa yang kamu ambil saat merencanakan liburan grup?",
     "options": [
       {
-        "answer": "Saya suka memimpin tim dan mengatur jadwal",
-        "tags": "project manager product manager scrum master agile leadership"
+        "answer": "Mencari spot foto dan hotel estetik",
+        "tags": "ui ux designer creative visual arts"
       },
       {
-        "answer": "Saya lebih suka fokus coding sendirian (Technical Expert)",
-        "tags": "software engineer developer programmer technical specialist"
+        "answer": "Menghitung budget dan perbandingan harga",
+        "tags": "data analyst business intelligence finance logic"
       },
       {
-        "answer": "Saya suka memastikan kualitas dan mencari bug",
-        "tags": "qa engineer software tester quality assurance automation"
+        "answer": "Memastikan keamanan dan risiko perjalanan",
+        "tags": "cybersecurity risk management compliance security"
+      },
+      {
+        "answer": "Menyusun itinerary efisien agar rute logis",
+        "tags": "backend engineer logic algorithms optimization flow"
+      },
+      {
+        "answer": "Menjadi ketua rombongan dan penengah",
+        "tags": "product manager leadership management communication"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "Bagaimana kondisi tampilan layar HP/Desktop kamu?",
+    "options": [
+      {
+        "answer": "Penuh widget hiasan dan warna senada",
+        "tags": "frontend developer design aesthetics ui"
+      },
+      {
+        "answer": "Berantakan, tapi akses cepat ke data penting",
+        "tags": "data scientist practical fast access functionality"
+      },
+      {
+        "answer": "Sangat bersih demi privasi dan memori",
+        "tags": "cybersecurity privacy clean efficiency security"
+      },
+      {
+        "answer": "Dikelompokkan dalam folder terstruktur",
+        "tags": "backend engineer database structure architecture organization"
+      },
+      {
+        "answer": "Isinya aplikasi produktivitas (Calendar, Trello)",
+        "tags": "product manager productivity tools management agile"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Reaksi pertamamu melihat fitur baru di medsos?",
+    "options": [
+      {
+        "answer": "Wah, filternya bikin tampilan lebih bagus!",
+        "tags": "frontend developer visual effects image processing"
+      },
+      {
+        "answer": "Gimana algoritma cara kerjanya ya?",
+        "tags": "machine learning ai engineer algorithm data structure"
+      },
+      {
+        "answer": "Ini aman nggak datanya? Privasi aman?",
+        "tags": "cybersecurity ethical hacking privacy protection"
+      },
+      {
+        "answer": "Pasti berat di server kalau banyak user",
+        "tags": "devops cloud engineer server scalability load balancing"
+      },
+      {
+        "answer": "Fitur ini pinter buat bikin user betah (Engagement)",
+        "tags": "product manager business value user retention marketing"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Apa yang kamu lakukan jika internet mati total?",
+    "options": [
+      {
+        "answer": "Kesal gak bisa streaming, cari kegiatan lain",
+        "tags": "user experience end user perspective"
+      },
+      {
+        "answer": "Ping test, analisis masalah lokal atau provider",
+        "tags": "network engineer data analysis diagnostics troubleshooting"
+      },
+      {
+        "answer": "Coba ganti DNS atau utak-atik settingan IP",
+        "tags": "cybersecurity network hacking configuration"
+      },
+      {
+        "answer": "Analisis kerusakan fisik (kabel putus, dll)",
+        "tags": "infrastructure engineer hardware network physical layer"
+      },
+      {
+        "answer": "Telepon CS minta estimasi waktu perbaikan",
+        "tags": "it manager service level agreement communication"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "Pekerjaan apa yang PANTANG (paling tidak kamu sukai) kamu pegang?",
+    "options": [
+      {
+        "answer": "Mengurusi database/server hitam putih",
+        "tags": "frontend developer ui ux designer creative animation"
+      },
+      {
+        "answer": "Desain tombol/warna",
+        "tags": "backend engineer data scientist logic algorithm"
+      },
+      {
+        "answer": "Presentasi depan klien",
+        "tags": "qa engineer cybersecurity bug hunter technical specialist"
+      },
+      {
+        "answer": "Menulis dokumentasi",
+        "tags": "software engineer programmer implementation coding"
+      },
+      {
+        "answer": "Coding sendirian",
+        "tags": "product manager consultant system analyst teamwork"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "Apa definisi 'Puas' bagimu setelah kerja?",
+    "options": [
+      {
+        "answer": "Orang lain memuji tampilan visualnya",
+        "tags": "frontend developer ui designer web design art"
+      },
+      {
+        "answer": "Menemukan fakta baru dari data",
+        "tags": "data scientist research analysis discovery"
+      },
+      {
+        "answer": "Menemukan celah kesalahan atau bug",
+        "tags": "qa engineer software tester quality control"
+      },
+      {
+        "answer": "Sistem berjalan otomatis tanpa disentuh",
+        "tags": "devops site reliability engineer automation cloud"
+      },
+      {
+        "answer": "Produknya berguna bagi banyak orang",
+        "tags": "product manager solution architect business impact"
       }
     ]
   }

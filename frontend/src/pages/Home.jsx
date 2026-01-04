@@ -12,7 +12,7 @@ export default function Home() {
             className="text-center space-y-8 max-w-2xl px-6"
         >
             <div className="space-y-4">
-                <h1 className="text-5xl font-extrabold tracking-tight lg:text-7xl bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">IT Career</h1>
+                <h1 className="text-5xl font-extrabold tracking-tight lg:text-7xl bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">Nuntun.</h1>
                 <p className="text-slate-400 text-xl leading-relaxed">"Your career doesn’t define your worth, but it can reflect your values."</p>
             </div> 
 
