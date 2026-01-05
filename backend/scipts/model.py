@@ -5,7 +5,7 @@ import re
 import pickle 
 from sentence_transformers import SentenceTransformer 
 
-Dataset = 'dataset/Job.xlsx'
+Dataset = '../../dataset/Job_New.csv'
 model_name = 'all-MiniLM-L6-v2' 
 
 def clean_text(text):
@@ -20,13 +20,13 @@ def clean_text(text):
 def main():
     print("Loading Dataset")
     try:
-        df = pd.read_excel(Dataset)
+        df = pd.read_csv(Dataset)
         print(f"Dataset : {len(df)} baris.")
     except Exception as e:
         print(f"Gagal: {e}")
         return 
     
-    # Cek kolom tersedia 
+
     print("Kolom tersedia: ", df.columns.tolist())
     col_title = 'Job Title'
     col_desc = 'Job Description' 

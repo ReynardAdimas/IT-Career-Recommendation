@@ -6,7 +6,7 @@ from typing import List
 from app.services.recommender import recommender_engine
 from fastapi.middleware.cors import CORSMiddleware
 
-app = FastAPI(title="IT Career Recommender API") 
+app = FastAPI(title="Nuntun: IT Career Recommender API") 
 
 app.add_middleware(
     CORSMiddleware, 
@@ -26,7 +26,7 @@ class JobRecommendation(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"status": "active", "message": "Welcome to IT Career Recommender API"}
+    return {"status": "active", "message": "Welcome to Nuntun: IT Career Recommender API"}
 
 @app.get("/api/questions")
 def get_questions():

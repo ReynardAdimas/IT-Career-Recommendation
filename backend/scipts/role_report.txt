@@ -1,4 +1,5 @@
-Daftar Role('it support specialist', 16)
+Daftar Role
+('it support specialist', 16)
 ('full-stack developer', 12)
 ('cloud solutions analyst', 12)
 ('it trainer', 11)
